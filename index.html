@@ -1,501 +1,724 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maze | Product research platform for modern teams</title>
-    <link rel="stylesheet" href="./asset/css/base.css">
-    <link rel="stylesheet" href="./asset/css/main.css">
-    <link rel="stylesheet" href="./asset/css/grid.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,430;0,700;1,400;1,500;1,600;1,700&family=Radio+Canada&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
-    <link rel="shortcut icon" type="image/png" href="./asset/images/tag-icon.png">
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <link rel="stylesheet" href="./asset/css/grid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,430;0,700;1,400;1,500;1,600;1,700&family=Radio+Canada&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./asset/fonts/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./asset/images/tag-icon.png"
+    />
     <title>maze</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header -->
-        <div class="header" id="header">
-            <a href="#" class="maze-icon">
-                <img src="./asset/images/maze-logo.png" alt="logo">
-            </a>
-            <ul class="header__list">
-                <li class="header__list-item" id="why-maze">
-                    <p class="header__list-item--title">Why maze?</p>
-                    <i class="fa-solid fa-angle-down"></i>
+    <div class="header" id="header">
+      <a href="#" class="maze-icon">
+        <img src="./asset/images/maze-logo.png" alt="logo" />
+      </a>
+      <ul class="header__list">
+        <li class="header__list-item" id="why-maze">
+          <p class="header__list-item--title">Why maze?</p>
+          <i class="fa-solid fa-angle-down"></i>
 
-                    <div class="header__navbar why-maze">
-                        <div class="header__navbar-container">
-                            <div class="navbar-overview">
-                                <div class="navbar--title">Overview</div>
-                                <div class="line"></div>
-                                <ul class="navbar--overview-list">
-                                    <li class="navbar--overview-item">Why maze?</li>
-                                    <li class="navbar--overview-item">What's new</li>
-                                    <li class="navbar--overview-item">Our customers</li>
-                                </ul>
-                            </div>
-                            <div class="navbar-platform">
-                                <div class="navbar--title">platform</div>
-                                <div class="line"></div>
-                                <div class="two-list">
-                                    <ul class="navbar--platform-list">
-                                        <li class="navbar--platform-item">
-                                            <div class="platform-item-title">Test</div> 
-                                            <p class="flatform--content">Rapidly test & validate prototypes, concepts, copy, and more</p>
-                                        </li>
-                                        <li class="navbar--platfrom-item" style="margin-bottom:36px;">
-                                            <div class="platform-item-title">Intergrate</div> 
-                                            <p class="flatform--content">Work seamlessly with design platforms like Figma, Adobe XD, and more</p>
-                                        </li>
-                                        <li class="navbar--platfrom-item">
-                                            <div class="platform-item-title">Reach</div> 
-                                            <p class="flatform--content">Send targeted product research campaigns, faster</p>
-                                        </li>
-                                    </ul>
-        
-                                    <ul class="navbar--platform-list">
-                                        <li class="navbar--platform-item">
-                                            <div class="platform-item-title">Report</div> 
-                                            <p class="flatform--content">Get actionable user insights with automated metrics and reports</p>
-                                        </li>
-                                        <li class="navbar--platfrom-item">
-                                            <div class="platform-item-title">Collaborate</div> 
-                                            <p class="flatform--content">Build better user experiences together with your team</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="header__list-item" id="solution">
-                    <p class="header__list-item--title">Solution</p>
-                    <i class="fa-solid fa-angle-down"></i>
+          <div class="header__navbar why-maze">
+            <div class="header__navbar-container">
+              <div class="navbar-overview">
+                <div class="navbar--title">Overview</div>
+                <div class="line"></div>
+                <ul class="navbar--overview-list">
+                  <li class="navbar--overview-item">Why maze?</li>
+                  <li class="navbar--overview-item">What's new</li>
+                  <li class="navbar--overview-item">Our customers</li>
+                </ul>
+              </div>
+              <div class="navbar-platform">
+                <div class="navbar--title">platform</div>
+                <div class="line"></div>
+                <div class="two-list">
+                  <ul class="navbar--platform-list">
+                    <li class="navbar--platform-item">
+                      <div class="platform-item-title">Test</div>
+                      <p class="flatform--content">
+                        Rapidly test & validate prototypes, concepts, copy, and
+                        more
+                      </p>
+                    </li>
+                    <li
+                      class="navbar--platfrom-item"
+                      style="margin-bottom: 36px"
+                    >
+                      <div class="platform-item-title">Intergrate</div>
+                      <p class="flatform--content">
+                        Work seamlessly with design platforms like Figma, Adobe
+                        XD, and more
+                      </p>
+                    </li>
+                    <li class="navbar--platfrom-item">
+                      <div class="platform-item-title">Reach</div>
+                      <p class="flatform--content">
+                        Send targeted product research campaigns, faster
+                      </p>
+                    </li>
+                  </ul>
 
-                    <div class="header__navbar solution">
-                        <div class="header__navbar-container">
-                            <div class="navbar-by-use-case">
-                                <div class="navbar--title">By use case</div>
-                                <div class="line"></div>
-                                <ul class="by-use-case--list">
-                                    <li class="by-use-case-item navbar-item">Wireframe & Usability Test</li>
-                                    <li class="by-use-case-item navbar-item">Concept & Idea Validation</li>
-                                    <li class="by-use-case-item navbar-item">Content & Copy Testing</li>
-                                    <li class="by-use-case-item navbar-item">Feedback & Satisfaction</li>
-                                </ul>
-                            </div>
-                           <div class="navbar-by-feature">
-                                <div class="navbar--title">by-feature</div>
-                                <div class="line"></div>
-                                <div class="two-list">
-                                    <ul class="by-feature--list">
-                                        <li class="by-feature--item navbar-item">Prototype Testing</li>
-                                        <li class="by-feature--item navbar-item">Tree Testing</li>
-                                        <li class="by-feature--item navbar-item">5-Second Test</li>
-                                        <li class="by-feature--item navbar-item">Surveys</li>
-                                        <li class="by-feature--item navbar-item">Panel</li>
-                                    </ul>
-                                    <ul class="by-feature--list">
-                                        <li class="by-feature--item navbar-item">Cards Sorting</li>
-                                        <li class="by-feature--item navbar-item">Video Recording</li>
-                                        <li class="by-feature--item navbar-item">Participant Management</li>
-                                    </ul>    
-                                </div>
-                           </div>
-                           <div class="navbar-by-role">
-                                <div class="navbar--title">by role</div>
-                                <div class="line"></div>
-                                <ul class="by-role--list">
-                                    <li class="by-role--item navbar-item">Designers</li>
-                                    <li class="by-role--item navbar-item">Product Managers</li>
-                                    <li class="by-role--item navbar-item">Product Marketers</li>
-                                    <li class="by-role--item navbar-item">UX Researchers</li>
-                                </ul>
-                           </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="header__list-item"  id="templates">
-                    <p class="header__list-item--title">Templates</p>
-                    <i class="fa-solid fa-angle-down"></i>
-
-                    <div class="header__navbar templates">
-                        <div class="header__navbar-container">
-                            <div class="navbar-main-cate">
-                                <div class="navbar--title">main categories</div>
-                                <div class="line"></div>
-                                <ul class="main-cate--list">
-                                    <li class="main-cate-item navbar-item">Design Templates</li>
-                                    <li class="main-cate-item navbar-item">Research Templates</li>
-                                    <li class="main-cate-item navbar-item">Product Templates</li>
-                                    <li class="main-cate-item navbar-item">Marketing Templates</li>
-                                </ul>
-                            </div>
-                            <div class="navbar-popular-tems">
-                                <div class="navbar--title">main categories</div>
-                                <div class="line"></div>
-                                <ul class="popular-tems--list">
-                                    <li class="popular-tems-item navbar-item">Usability testing a new product</li>
-                                    <li class="popular-tems-item navbar-item">CTA placement</li>
-                                    <li class="popular-tems-item navbar-item">System usability scale (SUS)</li>
-                                    <li class="popular-tems-item navbar-item">Feature satisfaction survey</li>
-                                    <li class="popular-tems-item navbar-item">Mobile usability test</li>
-                                </ul>
-                            </div>
-                            <div class="templates-galery">
-                                <a href="#" class="templates-galery-link">
-                                    <img src="./asset/images/templates-icon.png" alt="templates galery icon" class="templates-galery-icon">
-                                    <p class="templates-galery--title">Templates Gallery</p>
-                                    <p class="templates-galery--content">Choose from our library of pre-built mazes to copy, customize, and share with your own users.</p>
-                                    <div class="templates-galery--with-icon">
-                                        <p>Browse all templates</p>
-                                        <i class="fa-solid fa-angle-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="header__list-item">
-                    <p class="header__list-item--title">Pricing</p>
-                </li>
-                <li class="header__list-item">
-                    <p class="header__list-item--title">Enterprise</p>
-                </li>
-                <li class="header__list-item" id="resources">
-                    <p class="header__list-item--title">Resources</p>
-                    <i class="fa-solid fa-angle-down"></i>
-
-                    <div class="header__navbar resources">
-                        <div class="header__navbar-container">
-                            <div class="navbar-product-help">
-                                <div class="navbar--title">product help</div>
-                                <div class="line"></div>
-                                <ul class="product-help--list">
-                                    <li class="product-help-item navbar-item">Help Center</li>
-                                </ul>
-                            </div>
-
-                            <div class="navbar-learn-and-connect">
-                                <div class="navbar--title">learn & connect</div>
-                                <div class="line"></div>
-
-                                <div class="two-list">
-                                    <ul class="learn-and-connect-list">
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">Blog</p>
-                                            <p class="learn-and-connect-content">News, ideas, and insights on product research</p>
-                                        </li>
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">Guides</p>
-                                            <p class="learn-and-connect-content">Learn the basics with expert resources</p>
-                                        </li>
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">Colections</p>
-                                            <p class="learn-and-connect-content">Resources on UX/UI Design, Product Development, and more</p>
-                                        </li>
-                                    </ul>
-                                    <ul class="learn-and-connect-list">
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">Community</p>
-                                            <p class="learn-and-connect-content">A space for makers, creators, and innovators</p>
-                                        </li>
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">The Optimal Path Podcast</p>
-                                            <p class="learn-and-connect-content">Stories about product decision-making</p>
-                                        </li>
-                                        <li class="learn-and-connect-item">
-                                            <p class="learn-and-connect-title navbar-item">UX Leadership Playbook</p>
-                                            <p class="learn-and-connect-content">Learn how to scale product research with advice from 30+ UX leaders </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="header__account">
-                <a href="#" class="header__log-in">Log in</a>
-                <button class="primary-btn header__btn">Get started free</button>
+                  <ul class="navbar--platform-list">
+                    <li class="navbar--platform-item">
+                      <div class="platform-item-title">Report</div>
+                      <p class="flatform--content">
+                        Get actionable user insights with automated metrics and
+                        reports
+                      </p>
+                    </li>
+                    <li class="navbar--platfrom-item">
+                      <div class="platform-item-title">Collaborate</div>
+                      <p class="flatform--content">
+                        Build better user experiences together with your team
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
+        </li>
+        <li class="header__list-item" id="solution">
+          <p class="header__list-item--title">Solution</p>
+          <i class="fa-solid fa-angle-down"></i>
+
+          <div class="header__navbar solution">
+            <div class="header__navbar-container">
+              <div class="navbar-by-use-case">
+                <div class="navbar--title">By use case</div>
+                <div class="line"></div>
+                <ul class="by-use-case--list">
+                  <li class="by-use-case-item navbar-item">
+                    Wireframe & Usability Test
+                  </li>
+                  <li class="by-use-case-item navbar-item">
+                    Concept & Idea Validation
+                  </li>
+                  <li class="by-use-case-item navbar-item">
+                    Content & Copy Testing
+                  </li>
+                  <li class="by-use-case-item navbar-item">
+                    Feedback & Satisfaction
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-by-feature">
+                <div class="navbar--title">by-feature</div>
+                <div class="line"></div>
+                <div class="two-list">
+                  <ul class="by-feature--list">
+                    <li class="by-feature--item navbar-item">
+                      Prototype Testing
+                    </li>
+                    <li class="by-feature--item navbar-item">Tree Testing</li>
+                    <li class="by-feature--item navbar-item">5-Second Test</li>
+                    <li class="by-feature--item navbar-item">Surveys</li>
+                    <li class="by-feature--item navbar-item">Panel</li>
+                  </ul>
+                  <ul class="by-feature--list">
+                    <li class="by-feature--item navbar-item">Cards Sorting</li>
+                    <li class="by-feature--item navbar-item">
+                      Video Recording
+                    </li>
+                    <li class="by-feature--item navbar-item">
+                      Participant Management
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="navbar-by-role">
+                <div class="navbar--title">by role</div>
+                <div class="line"></div>
+                <ul class="by-role--list">
+                  <li class="by-role--item navbar-item">Designers</li>
+                  <li class="by-role--item navbar-item">Product Managers</li>
+                  <li class="by-role--item navbar-item">Product Marketers</li>
+                  <li class="by-role--item navbar-item">UX Researchers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="header__list-item" id="templates">
+          <p class="header__list-item--title">Templates</p>
+          <i class="fa-solid fa-angle-down"></i>
+
+          <div class="header__navbar templates">
+            <div class="header__navbar-container">
+              <div class="navbar-main-cate">
+                <div class="navbar--title">main categories</div>
+                <div class="line"></div>
+                <ul class="main-cate--list">
+                  <li class="main-cate-item navbar-item">Design Templates</li>
+                  <li class="main-cate-item navbar-item">Research Templates</li>
+                  <li class="main-cate-item navbar-item">Product Templates</li>
+                  <li class="main-cate-item navbar-item">
+                    Marketing Templates
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-popular-tems">
+                <div class="navbar--title">main categories</div>
+                <div class="line"></div>
+                <ul class="popular-tems--list">
+                  <li class="popular-tems-item navbar-item">
+                    Usability testing a new product
+                  </li>
+                  <li class="popular-tems-item navbar-item">CTA placement</li>
+                  <li class="popular-tems-item navbar-item">
+                    System usability scale (SUS)
+                  </li>
+                  <li class="popular-tems-item navbar-item">
+                    Feature satisfaction survey
+                  </li>
+                  <li class="popular-tems-item navbar-item">
+                    Mobile usability test
+                  </li>
+                </ul>
+              </div>
+              <div class="templates-galery">
+                <a href="#" class="templates-galery-link">
+                  <img
+                    src="./asset/images/templates-icon.png"
+                    alt="templates galery icon"
+                    class="templates-galery-icon"
+                  />
+                  <p class="templates-galery--title">Templates Gallery</p>
+                  <p class="templates-galery--content">
+                    Choose from our library of pre-built mazes to copy,
+                    customize, and share with your own users.
+                  </p>
+                  <div class="templates-galery--with-icon">
+                    <p>Browse all templates</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="header__list-item">
+          <p class="header__list-item--title">Pricing</p>
+        </li>
+        <li class="header__list-item">
+          <p class="header__list-item--title">Enterprise</p>
+        </li>
+        <li class="header__list-item" id="resources">
+          <p class="header__list-item--title">Resources</p>
+          <i class="fa-solid fa-angle-down"></i>
+
+          <div class="header__navbar resources">
+            <div class="header__navbar-container">
+              <div class="navbar-product-help">
+                <div class="navbar--title">product help</div>
+                <div class="line"></div>
+                <ul class="product-help--list">
+                  <li class="product-help-item navbar-item">Help Center</li>
+                </ul>
+              </div>
+
+              <div class="navbar-learn-and-connect">
+                <div class="navbar--title">learn & connect</div>
+                <div class="line"></div>
+
+                <div class="two-list">
+                  <ul class="learn-and-connect-list">
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">Blog</p>
+                      <p class="learn-and-connect-content">
+                        News, ideas, and insights on product research
+                      </p>
+                    </li>
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">Guides</p>
+                      <p class="learn-and-connect-content">
+                        Learn the basics with expert resources
+                      </p>
+                    </li>
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">
+                        Colections
+                      </p>
+                      <p class="learn-and-connect-content">
+                        Resources on UX/UI Design, Product Development, and more
+                      </p>
+                    </li>
+                  </ul>
+                  <ul class="learn-and-connect-list">
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">
+                        Community
+                      </p>
+                      <p class="learn-and-connect-content">
+                        A space for makers, creators, and innovators
+                      </p>
+                    </li>
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">
+                        The Optimal Path Podcast
+                      </p>
+                      <p class="learn-and-connect-content">
+                        Stories about product decision-making
+                      </p>
+                    </li>
+                    <li class="learn-and-connect-item">
+                      <p class="learn-and-connect-title navbar-item">
+                        UX Leadership Playbook
+                      </p>
+                      <p class="learn-and-connect-content">
+                        Learn how to scale product research with advice from 30+
+                        UX leaders
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="header__account">
+        <a href="#" class="header__log-in">Log in</a>
+        <button class="primary-btn header__btn">Get started free</button>
+      </div>
+    </div>
     <!-- header -->
 
     <!-- first-page -->
     <div class="first-page">
-        <video src="./asset/video,gif/main-page-video.mp4" autoplay muted loop class="first-page-vid"></video>
-        <div class="first-page-container">
-            <div class="first-page-text">
-                <h1 class="first-page-heading">Build amazing products. Without the guesswork.</h1>
-                <p class="first-page-content">Product research shouldn't feel slow or complicated. Collect actionable user insights that fuel product decisions in hours, not days.</p>
-                <button class="primary-btn get-started-btn">Get started free</button>
-                <button class="primary-btn talk-to-sale-btn">Talk to Sales</button>
-            </div>
+      <video
+        src="./asset/video,gif/main-page-video.mp4"
+        autoplay
+        muted
+        loop
+        class="first-page-vid"
+      ></video>
+      <div class="first-page-container">
+        <div class="first-page-text">
+          <h1 class="first-page-heading">
+            Build amazing products. Without the guesswork.
+          </h1>
+          <p class="first-page-content">
+            Product research shouldn't feel slow or complicated. Collect
+            actionable user insights that fuel product decisions in hours, not
+            days.
+          </p>
+          <button class="primary-btn get-started-btn">Get started free</button>
+          <button class="primary-btn talk-to-sale-btn">Talk to Sales</button>
         </div>
+      </div>
     </div>
     <!-- first-page -->
     <!-- brand -->
     <div class="brands">
-        <div class="brands-container">
-            <h1 class="brand-title">Trusted by 40.000+ brands</h1>
-            <div class="images-container">
-                <div class="image"><img src="./asset/images/uber-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/cloudflare-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/brage-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/H-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/glovo-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/overstock-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/fair-money.png" alt=""></div>
-                <div class="image"><img src="./asset/images/accenture-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/telenor-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/rappi-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/clarivate-logo-removebg-preview.png" alt=""></div>
-                <div class="image"><img src="./asset/images/vinted-logo-removebg-preview.png" alt=""></div>
-            </div>
-            
+      <div class="brands-container">
+        <h1 class="brand-title">Trusted by 40.000+ brands</h1>
+        <div class="images-container">
+          <div class="image">
+            <img src="./asset/images/uber-logo-removebg-preview.png" alt="" />
+          </div>
+          <div class="image">
+            <img
+              src="./asset/images/cloudflare-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img src="./asset/images/brage-logo-removebg-preview.png" alt="" />
+          </div>
+          <div class="image">
+            <img src="./asset/images/H-logo-removebg-preview.png" alt="" />
+          </div>
+          <div class="image">
+            <img src="./asset/images/glovo-logo-removebg-preview.png" alt="" />
+          </div>
+          <div class="image">
+            <img
+              src="./asset/images/overstock-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img src="./asset/images/fair-money.png" alt="" />
+          </div>
+          <div class="image">
+            <img
+              src="./asset/images/accenture-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img
+              src="./asset/images/telenor-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img src="./asset/images/rappi-logo-removebg-preview.png" alt="" />
+          </div>
+          <div class="image">
+            <img
+              src="./asset/images/clarivate-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img src="./asset/images/vinted-logo-removebg-preview.png" alt="" />
+          </div>
         </div>
-        <div class="line brands-line"></div>
+      </div>
+      <div class="line brands-line"></div>
     </div>
     <div class="experience">
-        <div class="experience__container">
-            <h1 class="experience-title">Experience Maze. Try a maze flow for yourself, or discover how your results will display.</h1>
-            <div class="service-wrapper">
-                <div class="service service__chossen">
-                    <img src="./asset/images/rm-testing-icon.png" alt="" class="service-icon">
-                    <h3 class="service__title">Remote Testing</h3>
-                    <p class="service__content">Get a front row seat to see how real users interact with your product.</p>
-                </div>
-                <div class="service">
-                    <img src="./asset/images/maze-rp-icon.png" alt="" class="service-icon">
-                    <h3 class="service__title">Maze Report</h3>
-                    <p class="service__content">Take away key learnings easily with visually dynamic reports, generated for every test.</p>
-                </div>
-            </div>
+      <div class="experience__container">
+        <h1 class="experience-title">
+          Experience Maze. Try a maze flow for yourself, or discover how your
+          results will display.
+        </h1>
+        <div class="service-wrapper">
+          <div class="service service__chossen">
+            <img
+              src="./asset/images/rm-testing-icon.png"
+              alt=""
+              class="service-icon"
+            />
+            <h3 class="service__title">Remote Testing</h3>
+            <p class="service__content">
+              Get a front row seat to see how real users interact with your
+              product.
+            </p>
+          </div>
+          <div class="service">
+            <img
+              src="./asset/images/maze-rp-icon.png"
+              alt=""
+              class="service-icon"
+            />
+            <h3 class="service__title">Maze Report</h3>
+            <p class="service__content">
+              Take away key learnings easily with visually dynamic reports,
+              generated for every test.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <div class="take-a-test">
-        <div class="take-a-test__border">
-            <div class="light-wrapper">
-            <div class="take-a-test--light blue"></div>
-            <div class="take-a-test--light"></div>
-            <div class="take-a-test--light"></div>
-            </div>
-            <div class="take-a-test__blue-screen">
-                <button class=" primary-btn take-a-test-btn">Take a test run</button>
-            </div>
+      <div class="take-a-test__border">
+        <div class="light-wrapper">
+          <div class="take-a-test--light blue"></div>
+          <div class="take-a-test--light"></div>
+          <div class="take-a-test--light"></div>
         </div>
+        <div class="take-a-test__blue-screen">
+          <button class="primary-btn take-a-test-btn">Take a test run</button>
+        </div>
+      </div>
     </div>
     <div class="get-user-insights">
-        <h2 class="get-user-insights--title">Get user insights you can act on instantly</h2>
-        
-        <div class="get-user-insights__content">
-            <video src="./asset/video,gif/first-procession-video.mp4" autoplay loop class="content--vid"></video>
-            <div class="content--des">
-                <div class="des-wrapper">
-                    <h1 class="des__title">Test anytime, get 
-                                         <br>insights in real-time</h1>
-                    <p class="des__para">Easily create a maze for every project need. 
-                                        <br>From usability tests to user surveys, you can 
-                                        <br>share a maze with users across the globe using 
-                                        <br>a unique URL in minutes.</p>
-                    <a href="#" class="des-btn primary-btn">Show me more</a>
-                </div>
-            </div>
-        </div>
+      <h2 class="get-user-insights--title">
+        Get user insights you can act on instantly
+      </h2>
 
-        <div class="get-user-insights__content">
-            <div class="content--des">
-                <div class="des-wrapper">
-                    <h1 class="des__title">Integrate with the 
-                                        <br>world’s leading 
-                                        <br>design tools</h1>
-                    <p class="des__para">Seamlessly link Maze to your favorite design 
-                                        <br>tools like Figma, InVision, Adobe XD, Marvel, 
-                                        <br>and Sketch. Designed with your workflow in 
-                                        <br>mind.</p>
-                    <a href="#" class="des-btn primary-btn">See all integrations</a>
-                </div>
-            </div>
-            <video src="./asset/video,gif/second-procession-video.mp4" autoplay loop class="content--vid"></video>
+      <div class="get-user-insights__content">
+        <video
+          src="./asset/video,gif/first-procession-video.mp4"
+          class="content--vid"
+          id="vid1"
+        ></video>
+        <div class="content--des">
+          <div class="des-wrapper">
+            <h1 class="des__title">
+              Test anytime, get <br />insights in real-time
+            </h1>
+            <p class="des__para">
+              Easily create a maze for every project need. <br />From usability
+              tests to user surveys, you can <br />share a maze with users
+              across the globe using <br />a unique URL in minutes.
+            </p>
+            <a href="#" class="des-btn primary-btn">Show me more</a>
+          </div>
         </div>
+      </div>
 
-        <div class="get-user-insights__content">
-            <video src="./asset/video,gif/third-procession-video.mp4" autoplay loop class="content--vid"></video>
-            <div class="content--des">
-                <div class="des-wrapper">
-                    <h1 class="des__title">Make learning a team
-                                         <br> sport </h1>
-                    <p class="des__para">Keep your team in the loop. Collaborate with 
-                                       <br>stakeholders in Maze—and watch meaningful
-                                       <br>insights fuel business growth and drive product 
-                                       <br>decisions.</p>
-                    <a href="#" class="des-btn primary-btn">Learn more</a>
-                </div>
-            </div>
+      <div class="get-user-insights__content">
+        <div class="content--des">
+          <div class="des-wrapper">
+            <h1 class="des__title">
+              Integrate with the <br />world’s leading <br />design tools
+            </h1>
+            <p class="des__para">
+              Seamlessly link Maze to your favorite design <br />tools like
+              Figma, InVision, Adobe XD, Marvel, <br />and Sketch. Designed with
+              your workflow in <br />mind.
+            </p>
+            <a href="#" class="des-btn primary-btn">See all integrations</a>
+          </div>
         </div>
+        <video
+          src="./asset/video,gif/second-procession-video.mp4"
+          class="content--vid"
+          id="vid2"
+        ></video>
+      </div>
 
-        <div class="get-user-insights__content">
-            <div class="content--des">
-                <div class="des-wrapper">
-                    <h1 class="des__title">Generate beautiful, 
-                                           <br>shareable reports</h1>
-                    <p class="des__para">Claim back the hours lost making sense of test 
-                                        <br>results. Find the metrics that matter in a 
-                                        <br>beautifully-packaged report—all ready for your 
-                                        <br>stakeholders. </p>
-                    <a href="#" class="des-btn primary-btn">Reporting for duty</a>
-                </div>
-            </div>
-            <video src="./asset/video,gif/end-procession-videp.mp4" autoplay loop class="content--vid"></video>
+      <div class="get-user-insights__content">
+        <video
+          src="./asset/video,gif/third-procession-video.mp4"
+          class="content--vid"
+          id="vid3"
+        ></video>
+        <div class="content--des">
+          <div class="des-wrapper">
+            <h1 class="des__title">
+              Make learning a team <br />
+              sport
+            </h1>
+            <p class="des__para">
+              Keep your team in the loop. Collaborate with <br />stakeholders in
+              Maze—and watch meaningful <br />insights fuel business growth and
+              drive product <br />decisions.
+            </p>
+            <a href="#" class="des-btn primary-btn">Learn more</a>
+          </div>
         </div>
-        <div class="get-user-insights__footer">
-            <h1 class="get-user-insights__footer--title">Fast user insights but with a
-                                                        <br>human touch.</h1>
-            <a href="#" class="get-user-insights__footer--btn primary-btn">Why maze?</a>
+      </div>
+
+      <div class="get-user-insights__content">
+        <div class="content--des">
+          <div class="des-wrapper">
+            <h1 class="des__title">
+              Generate beautiful, <br />shareable reports
+            </h1>
+            <p class="des__para">
+              Claim back the hours lost making sense of test <br />results. Find
+              the metrics that matter in a <br />beautifully-packaged report—all
+              ready for your <br />stakeholders.
+            </p>
+            <a href="#" class="des-btn primary-btn">Reporting for duty</a>
+          </div>
         </div>
+        <video
+          src="./asset/video,gif/end-procession-videp.mp4"
+          class="content--vid"
+          id="vid4"
+        ></video>
+      </div>
+      <div class="get-user-insights__footer">
+        <h1 class="get-user-insights__footer--title">
+          Fast user insights but with a <br />human touch.
+        </h1>
+        <a href="#" class="get-user-insights__footer--btn primary-btn"
+          >Why maze?</a
+        >
+      </div>
     </div>
     <div class="braze">
-        <div class="braze__content">
-            <img src="./asset/images/brage-logo-removebg-preview.png" alt="" class="braze__content--img">
-            <p class="braze__content--para">"Using Maze has supercharged our product design process 
-                                            <br>and made it possible to drive faster turnaround times, 
-                                            <br>speeding up product iteration and making for a better, faster 
-                                            <br>user experience."</p>
-            <div class="braze__content--author">Yuna Akazawa, Product Designer at Braze  </div>
-            <a href="#" class="braze__content--btn primary-btn">Learn more</a>
+      <div class="braze__content">
+        <img
+          src="./asset/images/brage-logo-removebg-preview.png"
+          alt=""
+          class="braze__content--img"
+        />
+        <p class="braze__content--para">
+          "Using Maze has supercharged our product design process <br />and made
+          it possible to drive faster turnaround times, <br />speeding up
+          product iteration and making for a better, faster <br />user
+          experience."
+        </p>
+        <div class="braze__content--author">
+          Yuna Akazawa, Product Designer at Braze
         </div>
+        <a href="#" class="braze__content--btn primary-btn">Learn more</a>
+      </div>
     </div>
 
     <div class="team">
-        <h1 class="team__title">Empower your whole team with user insights</h1>
-        <div class="team__role">
-            <div class="manager-and-makerters">
-                <div class="white-space"></div>
-               <div class="role-card manager">
-                   <img src="./asset/images/productmanageri-con.png" alt="" class="role-card--icon">
-                   <div class="role-card__des">
-                       <h1 class="role-card--title">For Product Managers</h1>
-                       <p class="role-card--para">Bring the end user’s voice to early product decisions and communicate easily with stakeholders. </p>
-                       <div class="role-card--btn primary-btn">
-                        <i class="fa-solid fa-arrow-right"></i>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="role-card makerters">
-                <img src="./asset/images/productmarketers-icon.png" alt="" class="role-card--icon">
-                <div class="role-card__des">
-                    <h1 class="role-card--title">For Product Designers</h1>
-                    <p class="role-card--para">Quickly build, share, and gather actionable data from users to support wider product team needs fast.</p>
-                    <div class="role-card--btn primary-btn">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
+      <h1 class="team__title">Empower your whole team with user insights</h1>
+      <div class="team__role">
+        <div class="manager-and-makerters">
+          <div class="white-space"></div>
+          <div class="role-card manager">
+            <img
+              src="./asset/images/productmanageri-con.png"
+              alt=""
+              class="role-card--icon"
+            />
+            <div class="role-card__des">
+              <h1 class="role-card--title">For Product Managers</h1>
+              <p class="role-card--para">
+                Bring the end user’s voice to early product decisions and
+                communicate easily with stakeholders.
+              </p>
+              <div class="role-card--btn primary-btn">
+                <i class="fa-solid fa-arrow-right"></i>
               </div>
             </div>
-            <div class="designer-and-researcher">
-                <div class="role-card designer">
-                    <img src="./asset/images/productdesigner-icon.png" alt="" class="role-card--icon">
-                    <div class="role-card__des">
-                        <h1 class="role-card--title">For Product Marketers</h1>
-                        <p class="role-card--para">Collect actionable, quantifiable insights to inform go-to-market strategies and product decisions. </p>
-                        <div class="role-card--btn primary-btn">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
+          </div>
 
-                <div class="role-card researcher">
-                    <img src="./asset/images/userresearchericon.png" alt="" class="role-card--icon">
-                    <div class="role-card__des">
-                        <h1 class="role-card--title">For User Researchers</h1>
-                        <p class="role-card--para">Democratize testing and research across your organization to empower product teams with the tools to test early and often and make informed product decisions.</p>
-                        <div class="role-card--btn primary-btn">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
+          <div class="role-card makerters">
+            <img
+              src="./asset/images/productmarketers-icon.png"
+              alt=""
+              class="role-card--icon"
+            />
+            <div class="role-card__des">
+              <h1 class="role-card--title">For Product Designers</h1>
+              <p class="role-card--para">
+                Quickly build, share, and gather actionable data from users to
+                support wider product team needs fast.
+              </p>
+              <div class="role-card--btn primary-btn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="say-goodbye">
-            <h1 class="say-goodbye--title">Say goodbye to dead ends in 
-                                           <br>product research</h1>
-            <a href="#" class="say-goodbye-btn primary-btn">Try Maze today</a>
+        <div class="designer-and-researcher">
+          <div class="role-card designer">
+            <img
+              src="./asset/images/productdesigner-icon.png"
+              alt=""
+              class="role-card--icon"
+            />
+            <div class="role-card__des">
+              <h1 class="role-card--title">For Product Marketers</h1>
+              <p class="role-card--para">
+                Collect actionable, quantifiable insights to inform go-to-market
+                strategies and product decisions.
+              </p>
+              <div class="role-card--btn primary-btn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="role-card researcher">
+            <img
+              src="./asset/images/userresearchericon.png"
+              alt=""
+              class="role-card--icon"
+            />
+            <div class="role-card__des">
+              <h1 class="role-card--title">For User Researchers</h1>
+              <p class="role-card--para">
+                Democratize testing and research across your organization to
+                empower product teams with the tools to test early and often and
+                make informed product decisions.
+              </p>
+              <div class="role-card--btn primary-btn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="say-goodbye">
+        <h1 class="say-goodbye--title">
+          Say goodbye to dead ends in <br />product research
+        </h1>
+        <a href="#" class="say-goodbye-btn primary-btn">Try Maze today</a>
+      </div>
     </div>
     <footer class="footer">
-        <div class="footer-list__container">
-            <div class="footer-list__container--divider">
-               <div class="divider__logo">
-                   <img src="./asset/images/maze-logo-without-word (2).png" alt="maze logo">
-               </div>
-            </div>
-            <div class="footer-list__container--divider">
-                <h1 class="divider__title">Product</h1>
-                <div class="divider__link-wrapper">
-                    <a href="#" class="divider__link">Pricing</a> 
-                    <a href="#" class="divider__link">Enterprise</a>
-                    <a href="#" class="divider__link">Integrate</a>
-                    <a href="#" class="divider__link">What's New</a>
-                    <a href="#" class="divider__link">Customers</a>
-                    <a href="#" class="divider__link">Templates</a>
-                    <a href="#" class="divider__link">System Status</a>
-                </div>
-            </div>
-            <div class="footer-list__container--divider">
-                <h1 class="divider__title">Use Cases</h1>
-                <div class="divider__link-wrapper">
-                    <a href="#" class="divider__link">Concept & Idea Validation</a>
-                    <a href="#" class="divider__link">Wireframe & Usability Testing </a>
-                    <a href="#" class="divider__link">Content & Copy Testing</a>
-                    <a href="#" class="divider__link">Feedback & Satisfaction</a>
-                </div>
-            </div>
-            <div class="footer-list__container--divider">
-                <h1 class="divider__title">Resources</h1>
-                <div class="divider__link-wrapper">
-                    <a href="#" class="divider__link">Blog</a>
-                    <a href="#" class="divider__link">Collections</a>
-                    <a href="#" class="divider__link">Help Center</a>
-                    <a href="#" class="divider__link">Getting Started with Maze</a>
-                    <a href="#" class="divider__link">Usability Testing Guide</a>
-                    <a href="#" class="divider__link">UX Research Guide</a>
-                    <a href="#" class="divider__link">Guide to Product Discovery</a>
-                    <a href="#" class="divider__link">Scaling Research Playbook</a>
-                    <a href="#" class="divider__link">Question Bank</a>
-                    <a href="#" class="divider__link">Podcast</a>
-                    <a href="#" class="divider__link">Case Studies</a>          
-                </div>
-            </div>
-            <div class="footer-list__container--divider">
-                <h1 class="divider__title">Company</h1>
-                <div class="divider__link-wrapper">
-                    <a href="#" class="divider__link">About Us</a>
-                    <a href="#" class="divider__link">Careers</a>
-                    <a href="#" class="divider__link">Press Kit</a>
-                    <a href="#" class="divider__link">Contact Us</a>
-                </div>
-            </div>
+      <div class="footer-list__container">
+        <div class="footer-list__container--divider">
+          <div class="divider__logo">
+            <img
+              src="./asset/images/maze-logo-without-word (2).png"
+              alt="maze logo"
+            />
+          </div>
         </div>
-        <div class="footer-copy-right__container">
-            <div class="copy-right-link__wrapper">
-                <a href="#" class="link-wrapper__link">Copyright © 2022 Maze</a>
-                <a href="#" class="link-wrapper__link">Privacy policy</a>
-                <a href="#" class="link-wrapper__link">Security</a>
-                <a href="#" class="link-wrapper__link">Terms of service</a>
-            </div>
-            <div class="icon-wrapper">
-                <a href="#" class="icon-wrapper__icon"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="icon-wrapper__icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" class="icon-wrapper__icon"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="icon-wrapper__icon"><i class="fa-brands fa-instagram-square"></i></a>
-            </div>
+        <div class="footer-list__container--divider">
+          <h1 class="divider__title">Product</h1>
+          <div class="divider__link-wrapper">
+            <a href="#" class="divider__link">Pricing</a>
+            <a href="#" class="divider__link">Enterprise</a>
+            <a href="#" class="divider__link">Integrate</a>
+            <a href="#" class="divider__link">What's New</a>
+            <a href="#" class="divider__link">Customers</a>
+            <a href="#" class="divider__link">Templates</a>
+            <a href="#" class="divider__link">System Status</a>
+          </div>
         </div>
+        <div class="footer-list__container--divider">
+          <h1 class="divider__title">Use Cases</h1>
+          <div class="divider__link-wrapper">
+            <a href="#" class="divider__link">Concept & Idea Validation</a>
+            <a href="#" class="divider__link">Wireframe & Usability Testing </a>
+            <a href="#" class="divider__link">Content & Copy Testing</a>
+            <a href="#" class="divider__link">Feedback & Satisfaction</a>
+          </div>
+        </div>
+        <div class="footer-list__container--divider">
+          <h1 class="divider__title">Resources</h1>
+          <div class="divider__link-wrapper">
+            <a href="#" class="divider__link">Blog</a>
+            <a href="#" class="divider__link">Collections</a>
+            <a href="#" class="divider__link">Help Center</a>
+            <a href="#" class="divider__link">Getting Started with Maze</a>
+            <a href="#" class="divider__link">Usability Testing Guide</a>
+            <a href="#" class="divider__link">UX Research Guide</a>
+            <a href="#" class="divider__link">Guide to Product Discovery</a>
+            <a href="#" class="divider__link">Scaling Research Playbook</a>
+            <a href="#" class="divider__link">Question Bank</a>
+            <a href="#" class="divider__link">Podcast</a>
+            <a href="#" class="divider__link">Case Studies</a>
+          </div>
+        </div>
+        <div class="footer-list__container--divider">
+          <h1 class="divider__title">Company</h1>
+          <div class="divider__link-wrapper">
+            <a href="#" class="divider__link">About Us</a>
+            <a href="#" class="divider__link">Careers</a>
+            <a href="#" class="divider__link">Press Kit</a>
+            <a href="#" class="divider__link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy-right__container">
+        <div class="copy-right-link__wrapper">
+          <span href="#" class="link-wrapper__link">Copyright © 2022 Maze</span>
+          <a href="#" class="link-wrapper__link">Privacy policy</a>
+          <a href="#" class="link-wrapper__link">Security</a>
+          <a href="#" class="link-wrapper__link">Terms of service</a>
+        </div>
+        <div class="icon-wrapper">
+          <a href="#" class="icon-wrapper__icon"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" class="icon-wrapper__icon" 
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="#" class="icon-wrapper__icon"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="icon-wrapper__icon"
+            ><i class="fa-brands fa-instagram-square"></i
+          ></a>
+        </div>
+      </div>
     </footer>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>

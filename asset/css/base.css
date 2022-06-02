@@ -1,95 +1,97 @@
-* { 
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --heavy-text-color: #000000;
-    --normal-text-color: rgba(0, 0, 0, 0.5);
-    --primary-blue-color: #0568FD;
-    --white-color: #fff;
-    --header-heigth: 100px;
+:root {
+  --heavy-text-color: #000000;
+  --normal-text-color: rgba(0, 0, 0, 0.5);
+  --primary-blue-color: #0568fd;
+  --white-color: #fff;
+  --header-heigth: 100px;
 }
 
-html{
-    font-size: 62.5%;
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Radio Canada', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    max-width: 100vw;
-    background-color: #F4F7FC;
-    scroll-behavior: smooth;
-    background-color: #FFFFFF;
+html {
+  font-size: 62.5%;
+  font-family: "Cabin", sans-serif;
+  font-family: "Radio Canada", sans-serif;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  max-width: 100vw;
+  background-color: #f4f7fc;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
 }
 
-.primary-btn{
-    color: var(--white-color);
-    border-radius: 40px;
-    outline: none;
-    border: none;
+.primary-btn {
+  color: var(--white-color);
+  border-radius: 40px;
+  outline: none;
+  border: none;
 }
 
-.header__navbar{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    padding: 30px 0 42px;
-    background-color: var(--white-color);
-    display: none;
-    animation: flash linear 0.35s;
-    transition: all linear 0.35s;
-    box-shadow: rgb(21 44 77 / 3%) 0px 20px 16px, rgb(21 44 77 / 4%) 0px 10px 10px, rgb(21 44 77 / 5%) 0px 5px 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+.header__navbar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  padding: 30px 0 42px;
+  background-color: var(--white-color);
+  display: none;
+  animation: flash linear 0.35s;
+  transition: all linear 0.35s;
+  box-shadow: rgb(21 44 77 / 3%) 0px 20px 16px, 
+              rgb(21 44 77 / 4%) 0px 10px 10px,
+              rgb(21 44 77 / 5%) 0px 5px 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
-.line{
-    height: 1.5px;
-    width: 100%;
-    background-color: #EBEBEB;
-    margin: 14px 0 30px;
+.line {
+  height: 1.5px;
+  width: 100%;
+  background-color: #ebebeb;
+  margin: 14px 0 30px;
 }
 
-.header__navbar-container{
-    margin: 0 auto;
-    display: flex;
-    min-width: 1070px;
+.header__navbar-container {
+  margin: 0 auto;
+  display: flex;
+  min-width: 1070px;
 }
 .navbar--overview-item,
 .platform-item-title,
-.navbar-item{
-    list-style-type: none;
-    margin-bottom: 36px;
-    transition: all linear 0.17s;
+.navbar-item {
+  list-style-type: none;
+  margin-bottom: 36px;
+  transition: all linear 0.17s;
 }
 
-.navbar-item:hover{
-    color: #0568fd;
+.navbar-item:hover {
+  color: #0568fd;
 }
 
 #solution:hover .solution,
 #why-maze:hover .why-maze,
 #templates:hover .templates,
-#resources:hover .resources{
-    display: flex;
+#resources:hover .resources {
+  display: flex;
 }
 
-.two-list{
-    height: 100%;
-    width: 100%;
-    display: flex;
+.two-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
-@keyframes flash{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+@keyframes flash {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
