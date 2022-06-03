@@ -20,7 +20,6 @@ function scroll() {
     header.style.height = "70px";
     header.classList.add("have-background");
     header.classList.remove("have-no-background");
-    console.log("80");
   } else {
     header.style.height = "100px";
     header.classList.remove("have-background");
